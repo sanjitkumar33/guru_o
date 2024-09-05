@@ -1,0 +1,163 @@
+.main-content {
+    margin: 110px 0px 0px 10px;
+    width: 100%;
+    padding-left: 320px;
+    padding-right: 40px;
+}
+.top p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+.main-content .btn-top {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 14px;
+    background-color: #0000ff;
+    color: #fff;
+    width: auto;
+    height: 45px;
+    float: right;
+    border-radius: 20px;
+}
+.main-content ul li{
+    list-style: none;
+}
+.main-content .top {
+    background: #fff !important;
+}
+.account-card {
+    width: 100%;
+    height: auto;
+    margin: 20px 15px;
+    border-radius: 20px;
+    background: linear-gradient(91.15deg, #4E72F0 10.36%, #8A8BF9 84.51%);
+}
+.account-card p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.account-card h3 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.img-bg img {
+    text-align: center;
+    width: 100%;
+}
+.btn-light-blue {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    border-radius: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #E7F5FF;
+}
+.btn-light-grey {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #E7E8FF;
+}
+.btn-light-pink {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #FFE7F8;
+}
+.account-details {
+    border-radius: 20px;
+    background-color: #fff;
+    margin-top: 25px;
+}
+.account-details h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #FAFBFF;
+    border-bottom: 0;
+}
+.account-details .card-header {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.account-details .table {
+    margin-bottom: 0;
+}
+.account-details .table td, .table th {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-right: 1px solid #E8EAF3;
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #E7F5FF;
+}
+
+/* css for modal pop req docs button click */
+.docsReqModal-content{
+    background-color: #ffffff !important;
+    border: none !important;
+}
+.docReqModal{
+    background-color: rgba(255,255,255,0.5) !important;
+    z-index: 9999 !important;
+    overflow: hidden !important;
+    height: 100vh !important;
+    padding-top: 0px !important;
+}
+.reqDocsModalBorder{
+    border: 1px solid #ebeced !important;
+}
+.modalBodySection{
+    height: 60vh;
+    overflow: auto;
+}
+
+/* Media Query */
+@media only screen and (max-width: 427px){
+    .main-content {
+        width: 94%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .main-content {
+        margin: 110px 10px;
+        padding: 10px;
+    }
+    .main-content .btn-top {
+        float: left;
+    }
+}
